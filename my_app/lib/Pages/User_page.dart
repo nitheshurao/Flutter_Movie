@@ -98,6 +98,10 @@ class _UserPageState extends State<UserPage> {
                           }
                           return null;
                         },
+                        onChanged: (value) {
+                          Password = value;
+                          setState(() {});
+                        },
                       )
                     ],
                   ),

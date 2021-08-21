@@ -98,7 +98,9 @@ class _LoginPageState extends State<LoginPage> {
                         },
                         onChanged: (value) {
                           username = value;
-                          setState(() {});
+                          // setState(() {
+                          //   username = value;
+                          // });
                         },
                       ),
                       TextFormField(
@@ -116,7 +118,9 @@ class _LoginPageState extends State<LoginPage> {
                           },
                           onChanged: (value) {
                             Upassword = value;
-                            setState(() {});
+                            // setState(() {
+                            //   Upassword = value;
+                            // });
                           })
                     ],
                   ),
