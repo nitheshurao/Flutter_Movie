@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Moviname",
+            "price": 911,
+            "color": "#353728",
+            "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+        },
+        {
+            "id": 2,
+            "name": "name",
+            "price": 922,
+            "color": "#353728",
+            "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+        },
+        {
+            "id": 2,
+            "name": "movie",
+            "price": 933,
+            "color": "#353728",
+            "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+        }
+    ]
+}
