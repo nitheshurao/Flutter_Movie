@@ -70,7 +70,7 @@ class _LoginPageState extends State<LoginPage> {
                   fit: BoxFit.fill,
                 ),
                 SizedBox(
-                  height: 20,
+                  height: 40,
                 ),
 
                 Text(

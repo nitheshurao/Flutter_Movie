@@ -16,6 +16,9 @@ class CatalogImage extends StatelessWidget {
         .color(context.canvasColor)
         .make()
         .py16() //padding
-        .w40(context); //wodth of image inside padding
+        .wPCT(
+            context: context,
+            widthPCT:
+                context.isMobile ? 40 : 20); //wodth of image inside padding
   }
 }

@@ -8,22 +8,7 @@ class CaltelogModels {
 
   factory CaltelogModels() => catModel;
 
-  static List<Item> items = [
-    // Item(
-    //   id: 1,
-    //   name: "nith",
-    //   price: 999,
-    //   color: "#353728",
-    //   image: "",
-    // ),
-  ];
-
-//get items by Id
-  Item getById(int id) =>
-      items.firstWhere((element) => element.id == id, orElse: null);
-
-  // get itme by position
-  Item getByPosition(int pos) => items[pos];
+  static List<Item> items = [];
 }
 
 class Item {
@@ -34,34 +19,6 @@ class Item {
   final String image;
 
   Item(this.id, this.name, this.image);
-
-  // factory Item.fromMap(Map<String, dynamic> map) {
-  //   return Item(
-  //       id: map["id"],
-  //       name: map["name"],
-  //       price: map["price"],
-  //       color: map["color"],
-  //       image: map["image"]);
-  // }
-
-  // toMap() =>
-  //     {"id": id, "name": name, "price": price, "color": color, "image": image};
-
-  Item copyWith({
-    int? id,
-    String? name,
-    num? price,
-    String? color,
-    String? image,
-  }) {
-    return Item(
-      id ?? this.id,
-      name ?? this.name,
-      // price ?? this.price,
-      // color ?? this.color,
-      image ?? this.image,
-    );
-  }
 
   Map<String, dynamic> toMap() {
     return {
@@ -90,26 +47,5 @@ class Item {
   @override
   String toString() {
     return 'Item(id: $id, name: $name,  image: $image)';
-  }
-
-  @override
-  bool operator ==(Object other) {
-    if (identical(this, other)) return true;
-
-    return other is Item &&
-        other.id == id &&
-        other.name == name &&
-        // other.price == price &&
-        // other.color == color &&
-        other.image == image;
-  }
-
-  @override
-  int get hashCode {
-    return id.hashCode ^
-        name.hashCode ^
-        // price.hashCode ^
-        // color.hashCode ^
-        image.hashCode;
   }
 }

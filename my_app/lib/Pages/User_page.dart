@@ -53,6 +53,10 @@ class _UserPageState extends State<UserPage> {
           child: Form(
             child: Column(
               children: [
+                Image.asset(
+                  "assets/images/Login_Page.png",
+                  fit: BoxFit.fill,
+                ),
                 SizedBox(
                   height: 20,
                 ),

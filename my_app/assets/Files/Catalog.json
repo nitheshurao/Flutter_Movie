@@ -2,24 +2,52 @@
     "products": [
         {
             "id": 1,
-            "name": "Moviname",
-            "price": 911,
+            "name": "Beetlejuice",
+            "price": 1988,
             "color": "#353728",
-            "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+            "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg"
         },
         {
             "id": 2,
-            "name": "name",
+            "name": "The Cotton Clu",
             "price": 922,
             "color": "#353728",
             "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
         },
         {
             "id": 2,
-            "name": "movie",
+            "name": "The Shawshank Redemption",
             "price": 933,
             "color": "#353728",
             "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+        },
+        {
+            "id": 2,
+            "name": "The Shawshank Redemption",
+            "price": 933,
+            "color": "#353728",
+            "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+        },
+        {
+            "id": 2,
+            "name": "Crocodile Dundee",
+            "price": 933,
+            "color": "#353728",
+            "image": "https://images.pexels.com/photos/3131971/pexels-photo-3131971.jpeg?cs=srgb&dl=pexels-roberto-nickson-3131971.jpg&fm=jpg"
+        },
+        {
+            "id": 2,
+            "name": "Valkyrie",
+            "price": 933,
+            "color": "#353728",
+            "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Valkyrie",
+            "price": 933,
+            "color": "#353728",
+            "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg"
         }
     ]
 }
